@@ -157,13 +157,14 @@ main {
 .info-with-image,
 .advantages-grid {
     display: grid;
-    grid-template-columns: 1fr 360px;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.9fr);
     gap: 1.5rem;
     align-items: center;
 }
 
 .specs-media,
-.advantage-copy {
+.advantage-copy,
+.info-with-image > div {
     min-width: 0;
 }
 
@@ -171,6 +172,8 @@ main {
 .section-image,
 .advantage-image {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 24px;
     box-shadow: var(--shadow-sm);
     animation: float 7s ease-in-out infinite;
@@ -298,9 +301,18 @@ main .card:nth-of-type(5) {
     color: var(--gray-dark);
 }
 
+@media (max-width: 1024px) {
+    .specs-details,
+    .info-with-image,
+    .advantages-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 768px) {
     main {
         margin-top: -2rem;
+        padding: 0 1rem 1.5rem;
     }
 
     .specs-grid {
@@ -317,6 +329,10 @@ main .card:nth-of-type(5) {
     .advantage-image,
     .specs-media img {
         max-width: 100%;
+    }
+
+    .site-header {
+        padding: 2.5rem 1rem 3rem;
     }
 
     .hero-actions {
