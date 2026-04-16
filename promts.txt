@@ -1,1 +1,5 @@
-Copilot quiero que me ayudes a mejorar el diseño visual, aplicar estilos más trabajados, mejorar la distribución del contenido, con el fin de lograr una apariencia moderna.
+promt 1 "Copilot quiero que me ayudes a mejorar el diseño visual, aplicar estilos más trabajados, mejorar la distribución del contenido, con el fin de lograr una apariencia moderna."
+promt 2 "ahora con todo esto podrias dar mas animaciones con las imagenes agregadas en el titulo, en las especificaciones y posibles usos o ventajas frente a otros productos."
+promt 3 "ahora podrias adaptar e diseño de la pagina para pantallas pequeñas como dispositivos moviles y resolver los problemas de distribuición y superposición "
+promt 4 "ahora necesito agregar una ficha de producto que incluya una tabla de caracteristicas organizada con 3 atributos tecnicos relevantes como los mah que tiene o la facilidad de su uso y una presentación clara y ordenada de la información"
+promt 5 "arreglar los cuadros en el apartado de especificaciones tecnicas para hacerlos un poco mas grandes"
